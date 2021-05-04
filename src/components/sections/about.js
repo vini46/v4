@@ -117,7 +117,7 @@ const StyledPic = styled.div`
 const About = () => {
   const data = useStaticQuery(graphql`
     query {
-      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me.jpg" }) {
+      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "vinod_me.jpeg" }) {
         childImageSharp {
           fluid(maxWidth: 500, traceSVG: { color: "#64ffda" }) {
             ...GatsbyImageSharpFluid_withWebp_tracedSVG
@@ -138,7 +138,26 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'React', 'Eleventy', 'Vue', 'Node.js', 'WordPress'];
+  const skills = [
+    'Seleniun-Webdriver',
+    'API Testing',
+    'Performance Testing',
+    'Appium',
+    'WebdriverIO',
+    'CI/CD',
+    'AWS',
+    'Docker',
+    'Java',
+    'Python',
+    'JavaScript',
+    'Contract Testing',
+    'Jenkins',
+    'Github Actions',
+    'BDD',
+    'React',
+    'Node.js',
+    'WordPress',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -148,21 +167,21 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Vinod and I enjoy testing things that live on the internet. My
+              interest in test automation started back in 2012 when I decided to try testing some
+              banking applications — turns out learning coding and building automation thought me a
+              lot about Testing &amp; Test Automation!
             </p>
 
             <p>
               Fast-forward to today, and I've had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              <a href="https://www.bnymellon.com/">A Banking Company</a>,{' '}
+              <a href="https://www.aon.com/">a HR Management consultancy</a>,{' '}
+              <a href="https://www.xome.com/">a realestate startup</a>,{' '}
+              <a href="https://www.dalet.com/">a media domain company</a>, and{' '}
+              <a href="https://www.pro.com/">another real estate starup</a>. My main focus these
+              days is building accessible, inclusive products and digital experiences at{' '}
+              <a href="https://newpage.io/">NewPage</a> for a variety of clients.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
