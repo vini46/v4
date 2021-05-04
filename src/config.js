@@ -20,7 +20,7 @@ module.exports = {
     },
     {
       name: 'Codepen',
-      url: 'https://codepen.io/vbvini',
+      url: 'https://codepen.io/vini46',
     },
   ],
 
