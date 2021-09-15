@@ -69,7 +69,7 @@ const Hero = () => {
     <p>
       I'm a India-based software engineer who specializes in building and Architecting Test
       Automation (and occasionally designing) exceptional digital experiences.. Currently, I'm an
-      engineer at <a href="https://www.newpage.io/">NewPage</a> focused on building accessible,
+      engineer at <a href="https://divisionsmg.com/">DMG</a> focused on building accessible,
       human-centered products.
     </p>
   );

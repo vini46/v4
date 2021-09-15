@@ -3,7 +3,7 @@ date: '2018-05-14'
 title: 'Senior SDET'
 company: 'NewPage'
 location: 'Chennai, IN'
-range: 'May 2020 - Present'
+range: 'May 2020 - June 2021'
 url: 'https://newpage.io/'
 ---
 

@@ -181,7 +181,7 @@ const About = () => {
               <a href="https://www.dalet.com/">a media domain company</a>, and{' '}
               <a href="https://www.pro.com/">another real estate starup</a>. My main focus these
               days is building accessible, inclusive products and digital experiences at{' '}
-              <a href="https://newpage.io/">NewPage</a> for a variety of clients.
+              <a href="https://divisionsmg.com/">DMG</a> for a variety of clients.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
